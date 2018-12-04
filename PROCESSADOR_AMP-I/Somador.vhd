@@ -1,17 +1,27 @@
-LIBRARY ieee ;
-USE ieee.std_logic_1164.all ;
-USE ieee.std_logic_signed.all ;
-ENTITY Somador IS
-PORT (Cin          : IN   STD_LOGIC ;
-		X, Y         : IN   STD_LOGIC_VECTOR(15 DOWNTO 0) ;
-		S            : OUT  STD_LOGIC_VECTOR(15 DOWNTO 0) ;
-		Cout,Overflow: OUT STD_LOGIC ) ;
-END Somador;
-ARCHITECTURE Behavior OF Somador IS    
-SIGNAL Sum : STD_LOGIC_VECTOR(16 DOWNTO 0) ;
-BEGIN
-Sum <= ('0' & X) + Y + Cin ;
-S <= Sum(15 DOWNTO 0) ;
-Cout <= Sum(16) ;
-Overflow <= Sum(16) XOR X(15) XOR Y(15) XOR Sum(15);
-END Behavior ;
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity somador is
+	port(
+		cin : in std_logic;
+		a,b : in std_logic_vector(15 downto 0);
+		cout : out std_logic;
+		s : out std_logic_vector(15 downto 0)
+	);
+end somador;
+
+architecture somador_16bits of somador is
+begin
+	process(a,b,cin)
+		variable soma: std_logic_vector(15 downto 0);
+		variable c: std_logic;
+		begin
+			c := cin;
+			for i in 0 to 15 loop
+			soma(i) := a(i) xor b(i) xor c;
+			c := (a(i) and b(i)) or ((a(i) xor b(i)) and c);
+		end loop;
+		cout <= c;
+		s <= soma;
+	end process;
+end somador_16bits;
