@@ -6,7 +6,7 @@ use ieee.std_logic_unsigned.all;
 entity ROM_16bits is
 	port(
 	address: in std_logic_vector(15 downto 0);
-	data: out std_logic_vector(15 downto 0)
+	data: out std_logic_vector(3 downto 0)
 );
 end ROM_16bits;
 
@@ -24,6 +24,11 @@ constant ROM: MEM := (       0 => "0000", -- add
 									  9 => "1001", -- Store
 									  10 => "1010", -- Beq
 									  11 => "1011", -- Jump
+									  12 => "1100", -- ||
+									  13 => "1101", -- ||
+									  14 => "1110", -- ||
+									  15 => "1111" -- Exit
+									  );
 begin
 	process (address)
 	begin
@@ -40,7 +45,11 @@ begin
        when "0000000000001001" => data <= ROM(9);
        when "0000000000001010" => data <= ROM(10);
        when "0000000000001011" => data <= ROM(11);
-       when others => data <= "ZZZZZZZZZZZZZZZZ";
+		 when "0000000000001100" => data <= ROM(12);
+		 when "0000000000001101" => data <= ROM(13);
+		 when "0000000000001110" => data <= ROM(14);
+		 when "0000000000001111" => data <= ROM(15);
+       when others => data <= "ZZZZ";
 	 end case;
   end process;
 end behavior;
