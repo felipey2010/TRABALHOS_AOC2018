@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "regDst",
+					"strict" : false
+				},
+				{
+					"name" : "ulaFont",
+					"strict" : false
+				},
+				{
+					"name" : "memParaReg",
+					"strict" : false
+				},
+				{
+					"name" : "escReg",
+					"strict" : false
+				},
+				{
+					"name" : "lerMem",
+					"strict" : false
+				},
+				{
+					"name" : "escMem",
+					"strict" : false
+				},
+				{
+					"name" : "desvio",
+					"strict" : false
+				},
+				{
+					"name" : "ulaOP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ulaOP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ulaOP[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ulaOP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ulaOP[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ulaOP[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ulaOP[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ulaOP[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
