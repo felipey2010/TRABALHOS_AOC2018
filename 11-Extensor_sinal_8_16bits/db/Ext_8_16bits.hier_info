@@ -1,0 +1,27 @@
+|Ext_8_16bits
+a[0] => sinal_ex[0].DATAIN
+a[1] => sinal_ex[1].DATAIN
+a[2] => sinal_ex[2].DATAIN
+a[3] => sinal_ex[3].DATAIN
+a[4] => sinal_ex[4].DATAIN
+a[5] => sinal_ex[5].DATAIN
+a[6] => sinal_ex[6].DATAIN
+a[7] => sinal_ex[7].DATAIN
+sinal_ex[0] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+sinal_ex[1] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+sinal_ex[2] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+sinal_ex[3] <= a[3].DB_MAX_OUTPUT_PORT_TYPE
+sinal_ex[4] <= a[4].DB_MAX_OUTPUT_PORT_TYPE
+sinal_ex[5] <= a[5].DB_MAX_OUTPUT_PORT_TYPE
+sinal_ex[6] <= a[6].DB_MAX_OUTPUT_PORT_TYPE
+sinal_ex[7] <= a[7].DB_MAX_OUTPUT_PORT_TYPE
+sinal_ex[8] <= <GND>
+sinal_ex[9] <= <GND>
+sinal_ex[10] <= <GND>
+sinal_ex[11] <= <GND>
+sinal_ex[12] <= <GND>
+sinal_ex[13] <= <GND>
+sinal_ex[14] <= <GND>
+sinal_ex[15] <= <GND>
+
+
