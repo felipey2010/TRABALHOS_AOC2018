@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+
+ENTITY port_XOR IS 
+	PORT (A, B : IN std_logic;
+			saida : OUT std_logic);
+END port_xor;
+
+ARCHITECTURE porta OF port_XOR IS 
+BEGIN
+	PROCESS(A, B)
+		BEGIN
+			saida <= ((a and not b) or (not a and b));
+	END PROCESS;
+END porta;

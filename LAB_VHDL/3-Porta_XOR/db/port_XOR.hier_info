@@ -1,0 +1,36 @@
+|port_XOR
+A => mNot:AN.A
+A => mAnd:G2.A
+B => mNot:BN.A
+B => mAnd:G1.B
+S <= mOr:G3.R
+
+
+|port_XOR|mNot:AN
+A => S.DATAIN
+S <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|port_XOR|mNot:BN
+A => S.DATAIN
+S <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|port_XOR|mAnd:G1
+A => R.IN0
+B => R.IN1
+R <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|port_XOR|mAnd:G2
+A => R.IN0
+B => R.IN1
+R <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|port_XOR|mOr:G3
+A => R.IN0
+B => R.IN1
+R <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,11 @@
+A porta XOR tem duas entradas, A e B.
+
+O componente segue o seguinte 
+ENTRADAS 	SAÍDA
+A	B	A XOR B
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+
+De acordo com o teste realizado, o componente apresentou os mesmos resultados esperados. 

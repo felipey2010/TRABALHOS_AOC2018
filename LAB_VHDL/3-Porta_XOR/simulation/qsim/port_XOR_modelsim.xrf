@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, D:/CURSO/LAB/3-Porta_XOR/port_XOR.vhd
+source_file = 1, D:/CURSO/LAB/3-Porta_XOR/mAnd.vhd
+source_file = 1, D:/CURSO/LAB/3-Porta_XOR/mOr.vhd
+source_file = 1, D:/CURSO/LAB/3-Porta_XOR/mNot.vhd
+source_file = 1, c:/intelfpga_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/17.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/17.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/CURSO/LAB/3-Porta_XOR/db/port_XOR.cbx.xml
+design_name = PORT_XOR
+instance = comp, \S~output\, S~output, PORT_XOR, 1
+instance = comp, \A~input\, A~input, PORT_XOR, 1
+instance = comp, \B~input\, B~input, PORT_XOR, 1
+instance = comp, \G3|R~0\, G3|R~0, PORT_XOR, 1
