@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CURSO/8° Semestre/Arquitetura/LAB/multi_4x1/simulation/qsim
+Emultiplex
+Z0 w1543531820
+Z1 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 cD3@N^MdoDolN5@R6?T[V1
+Z3 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z4 DPx8 cyclonev 19 cyclonev_components 0 22 3BCIeZzdIHLCX<;R;K38G3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 PQDYM9fR]Wek<A7X8bA8S1
+Z8 dD:/CURSO/LAB/multi_4x1/simulation/qsim
+Z9 8multi_4x1.vho
+Z10 Fmulti_4x1.vho
+l0
+L37
+VJVgSjA9nS>bNh>:<S5zgU3
+!s100 mTeXZ`GQP;;Um?nU19L:;3
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1543531823
+!i10b 1
+Z13 !s108 1543531822.000000
+Z14 !s90 -work|work|multi_4x1.vho|
+Z15 !s107 multi_4x1.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 multiplex 0 22 JVgSjA9nS>bNh>:<S5zgU3
+l89
+L48
+VOP2Neh>f8aAoD8gPN3:R43
+!s100 g0WN4`XfcoESEQ>E]Ii^Y1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Emultiplex_vhd_vec_tst
+Z18 w1543531817
+R5
+R6
+R8
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L32
+VD^FS3ZXY7PPEO]djE^cJc0
+!s100 2Oa^IcTj6gC@AI?H_=GAQ3
+R11
+32
+R12
+!i10b 1
+Z21 !s108 1543531823.000000
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Amultiplex_arch
+R5
+R6
+DEx4 work 21 multiplex_vhd_vec_tst 0 22 D^FS3ZXY7PPEO]djE^cJc0
+l53
+L34
+V_l=I7DlO:gFfbbikC]cTL0
+!s100 :F]Lchk0jfmNdi<3[R2ZN1
+R11
+32
+R12
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R16
+R17
