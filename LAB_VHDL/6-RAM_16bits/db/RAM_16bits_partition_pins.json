@@ -1,0 +1,165 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "O_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "O_data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "I_we",
+					"strict" : false
+				},
+				{
+					"name" : "I_clk",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "I_data[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
