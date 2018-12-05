@@ -1,0 +1,19 @@
+ROM de 16 bits
+As instruções armazenadas nos endereços são
+
+"0000", -- add
+"0001", -- Sub
+"0010", -- Mult
+"0011", -- Addf
+"0100", -- Subf
+"0101", -- Multf
+"0110", -- Or
+"0111", -- And
+"1000", -- Load
+ "1001", -- Store
+"1010", -- Beq
+"1011", -- Jump
+"1100", -- || //Nenhuma instrução associada
+"1101", -- || //Nenhuma instrução associada
+"1110", -- || //Nenhuma instrução associada
+"1111" -- Exit
