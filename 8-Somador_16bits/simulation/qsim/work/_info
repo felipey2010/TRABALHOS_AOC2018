@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/CURSO/LAB/8-Somador_16bits/simulation/qsim
+vsomador_16bits
+Z1 !s110 1543988197
+!i10b 1
+!s100 LKYKBeVTDWlkY7Jh@=^az3
+I0zJI@m2SdknRAfQ6eVSZg0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1543988196
+8Somador_16bits.vo
+FSomador_16bits.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1543988197.000000
+!s107 Somador_16bits.vo|
+!s90 -work|work|Somador_16bits.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vsomador_16bits_vlg_vec_tst
+R1
+!i10b 1
+!s100 6>^AIe[KT@Y0gP6G[Tden3
+I2Efn]LkH[nf:oFEn@b9A82
+R2
+R0
+w1543988194
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
