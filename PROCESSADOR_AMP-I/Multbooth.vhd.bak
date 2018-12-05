@@ -1,8 +1,5 @@
 library ieee; 
 use ieee.std_logic_1164.all;
-
-use ieee.numeric_std.all;
-
 entity Multbooth is
     generic(
         nr_of_bits : positive := 16
@@ -16,6 +13,8 @@ entity Multbooth is
         );
 end entity Multbooth;
 
+library ieee;
+use ieee.numeric_std.all;
 
 architecture behavior of Multbooth is
     signal M : signed((2*nr_of_bits) downto 0) := (others => '0');
@@ -48,4 +47,4 @@ begin
 
     zhi <= std_logic_vector(P((2*nr_of_bits) downto nr_of_bits+1));
     zlo <= std_logic_vector(P(nr_of_bits downto 1));
-end behavior;
+end architecture;

@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 Entity FlipFlopD is
 	Port(
 		D, Clock: 	IN			bit;
-		Q, QNOT:		inout 	bit
+		Q, QNOT:		buffer	bit
 	);
 End FlipFlopD;
 	
